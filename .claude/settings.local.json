@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run cypress:run:*)",
+      "Bash(npx cypress install:*)",
+      "Bash(npm test:*)",
+      "Bash(find:*)",
+      "Bash(npm run test:report:*)",
+      "Bash(open:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

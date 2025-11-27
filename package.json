@@ -1,0 +1,21 @@
+{
+  "name": "chinese-chess-bdd",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "cucumber-js",
+    "test:report": "cucumber-js --format html:reports/cucumber-report.html --format json:reports/cucumber-report.json"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7",
+    "@cucumber/cucumber": "^11.0.1",
+    "chai": "^4.5.0"
+  }
+}
